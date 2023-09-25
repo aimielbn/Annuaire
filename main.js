@@ -49,6 +49,6 @@ inputSearch.addEventListener('input', function (event) {
   const listeFinale = fuse.search(recherche).map((p) => p.item);
   console.log(listeFinale);
   document.querySelector('#liste').innerHTML = `
-        ${listePersonnes(listeFinale)}
+        ${listePersonnes(recherche.length === 0 ? data.sort():listeFinale)}
 `;
 });
