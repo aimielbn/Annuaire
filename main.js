@@ -7,7 +7,7 @@ const listeArticles = (articles) => {
   let html = '';
   for (let i = 0; i < articles.length; i++) {
     const article = articles[i];
-    let personneCard = `
+    let articleCard = `
       <a class="card col-5 col-md-3" href="/personne/?id=${article.id}">
         <img src="${article.id}" class="card-img-top" alt="avatar de ${article.titre}">
         <div class="card-body">
@@ -15,7 +15,7 @@ const listeArticles = (articles) => {
         </div>
       </a>
     `;
-    html += personneCard;
+    html += articleCard;
   }
   return html;
 };
