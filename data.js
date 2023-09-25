@@ -1,101 +1,32 @@
 export const data = [
   {
     id: 1,
-    prenom: 'Alice',
-    nom: 'Durand',
-    date_de_naissance: '1985-03-12',
-    avatar: '/img/1.png',
-    numero_de_telephone: '+33 6 12 34 56 78',
-    adresse_email: 'alice.durand@example.com',
-    description:
-      'Amoureuse des pingouins et experte en jonglage avec des légumes.',
+    titre: "Miraculous Ladybug : Une super-héroïne incroyable !",
+    image: "img/1.png",
+    contenu: "Miraculous Ladybug est une série animée populaire qui suit les aventures de Marinette Dupain-Cheng, une adolescente parisienne ordinaire qui se transforme en la super-héroïne Miraculous Ladybug pour combattre les forces du mal. Avec l'aide de Chat Noir, son fidèle partenaire, elle protège Paris des méchants akumas créés par le mystérieux Papillon. La série est appréciée pour ses personnages charismatiques, ses scènes d'action captivantes et ses messages positifs sur l'amitié et le courage."
   },
   {
     id: 2,
-    prenom: 'Bob',
-    nom: 'Martin',
-    date_de_naissance: '1990-07-25',
-    avatar: '/img/2.png',
-    numero_de_telephone: '+33 6 98 76 54 32',
-    adresse_email: 'bob.martin@example.com',
-    description:
-      'Collectionneur de chaussettes dépareillées et champion du monde de chatouilles.',
+    titre: "Les secrets de Miraculous Ladybug et Chat Noir",
+    image: "img/2.png",
+    contenu: "Miraculous Ladybug et Chat Noir cachent bien des secrets derrière leurs masques. Marinette, alias Ladybug, est une créatrice de mode talentueuse, tandis que Chat Noir, également connu sous le nom d'Adrien Agreste, est un mannequin célèbre. Leur double vie les confronte à des dilemmes personnels tout en luttant contre le crime. La série explore leur relation complexe et leurs efforts pour protéger Paris tout en gardant leur identité secrète."
   },
   {
     id: 3,
-    prenom: 'Caroline',
-    nom: 'Lefebvre',
-    date_de_naissance: '1988-11-18',
-    avatar: '/img/3.png',
-    numero_de_telephone: '+33 6 55 33 22 11',
-    adresse_email: 'caroline.lefebvre@example.com',
-    description:
-      "Éleveuse de licornes et spécialiste en résolution d'énigmes mathématiques impossibles.",
+    titre: "Le pouvoir des Miraculous",
+    image: "img/3.png",
+    contenu: "Les Miraculous sont des bijoux magiques qui confèrent des pouvoirs spéciaux à ceux qui les portent. Ladybug possède le Miraculous de la Coccinelle, lui donnant le pouvoir de la chance, tandis que Chat Noir a le Miraculous du Chat Noir, lui donnant des capacités de super-héros. Ensemble, ils forment une équipe imbattable, mais ils doivent rester vigilants pour éviter que Papillon ne s'empare de leurs Miraculous et ne réalise ses plans maléfiques."
   },
   {
     id: 4,
-    prenom: 'David',
-    nom: 'Girard',
-    date_de_naissance: '1979-05-03',
-    avatar: '/img/4.png',
-    numero_de_telephone: '+33 6 44 88 99 00',
-    adresse_email: 'david.girard@example.com',
-    description:
-      'Inventeur de danses bizarres et détenteur du record du monde de manger des piments.',
+    titre: "Les méchants de Miraculous Ladybug",
+    image: "img/4.png",
+    contenu: "La série Miraculous Ladybug présente une galerie de méchants uniques et mémorables. De l'akuma hypnotique au redoutable Darkblade, chaque méchant est conçu avec soin et a des motifs intrigants. Ladybug et Chat Noir doivent résoudre des énigmes tout en combattant ces antagonistes pour sauver Paris. L'intelligence et la créativité sont leurs atouts pour triompher de ces forces du mal."
   },
   {
     id: 5,
-    prenom: 'Eva',
-    nom: 'Dubois',
-    date_de_naissance: '1995-09-30',
-    avatar: '/img/5.png',
-    numero_de_telephone: '+33 6 77 22 11 33',
-    adresse_email: 'eva.dubois@example.com',
-    description:
-      'Aventurière spatiale à la recherche de la planète des bonbons.',
-  },
-  {
-    id: 6,
-    prenom: 'Franck',
-    nom: 'Moreau',
-    date_de_naissance: '1982-02-15',
-    avatar: '/img/6.png',
-    numero_de_telephone: '+33 6 33 55 99 77',
-    adresse_email: 'franck.moreau@example.com',
-    description:
-      'Champion de cache-cache professionnel et amateur de sauts en parachute depuis les arbres.',
-  },
-  {
-    id: 7,
-    prenom: 'Géraldine',
-    nom: 'Richard',
-    date_de_naissance: '1991-12-08',
-    avatar: '/img/7.png',
-    numero_de_telephone: '+33 6 11 22 33 44',
-    adresse_email: 'geraldine.richard@example.com',
-    description:
-      "Créatrice de chapeaux pour chats et spécialiste en imitations d'animaux de la ferme.",
-  },
-  {
-    id: 8,
-    prenom: 'Hugo',
-    nom: 'Poirier',
-    date_de_naissance: '1987-04-22',
-    avatar: '/img/8.png',
-    numero_de_telephone: '+33 6 66 77 88 99',
-    adresse_email: 'hugo.poirier@example.com',
-    description:
-      'Chercheur de trésors sous-marins et champion du monde de manger des pizzas en moins de 5 minutes.',
-  },
-  {
-    id: 9,
-    prenom: 'Isabelle',
-    nom: 'Roux',
-    date_de_naissance: '1993-08-07',
-    avatar: '/img/9.png',
-    numero_de_telephone: '+33 6 44 33 22 11',
-    adresse_email: 'isabelle.roux@example.com',
-    description:
-      'Spécialiste en mémorisation de numéros de téléphone aléatoires et créatrice de sculptures en papier toilette.',
-  },
-];
+    titre: "L'impact de Miraculous Ladybug sur la culture pop",
+    image: "img/5.png",
+    contenu: "Miraculous Ladybug a conquis le cœur de nombreux fans à travers le monde. La série a inspiré des fanfictions, des cosplays, des produits dérivés et même des conventions. Son message d'espoir, de persévérance et d'amitié résonne auprès d'un public diversifié. Miraculous Ladybug n'est pas seulement une série animée, c'est aussi un phénomène culturel qui continue d'apporter de la joie à ses fans."
+  }
+]
