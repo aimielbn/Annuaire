@@ -7,25 +7,25 @@ const detailsPersonne = () => {
   // récupération des paramètres GET de l'url
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
-  const personneId = urlParams.get('id') ?? 1;
-  console.log(personneId);
+  const articleId = urlParams.get('id') ?? 1;
+  console.log(articleId);
 
-  // on cherche la personne qui possède l'id trouvé dans l'url
-  const personne = data.find((personne) => {
-    return personne.id === Number.parseInt(personneId);
+  // on cherche l'article qui possède l'id trouvé dans l'url
+  const article = data.find((article) => {
+    return article.id === Number.parseInt(articleId);
   });
-  console.log(personne);
+  console.log(article);
 
   return `
       <div class="card col col-sm-10 col-md-8 col-xl-6 mx-auto">
-        <img src="${personne.avatar}" class="card-img-top" alt="avatar de ${personne.prenom} ${personne.nom}">
+        <img src="${article.avatar}" class="card-img-top" alt="avatar de ${article.prenom} ${article.nom}">
         <div class="card-body">
-          <h5 class="card-title">${personne.prenom} ${personne.nom}</h5>
+          <h5 class="card-title">${article.prenom} ${article.nom}</h5>
           <p class="card-text">
-         <h6> ${personne.date_de_naissance}</h6>
-         <a href="tel:+32499289591"> ${personne.numero_de_telephone}</a>
-         <a href="mailto:aimie.lebon@hotmail.com"/> ${personne.adresse_email}</a><br>
-          ${personne.description}
+         <h6> ${article.date_de_naissance}</h6>
+         <a href="tel:+32499289591"> ${article.numero_de_telephone}</a>
+         <a href="mailto:aimie.lebon@hotmail.com"/> ${article.adresse_email}</a><br>
+          ${article.description}
             
           </p>
         </div>
@@ -38,7 +38,7 @@ document.querySelector('#app').innerHTML = `
     ${nav}
 
     <div class="container-fluid my-4">
-      ${detailsPersonne()}
+      ${detailsArticle()}
     </div>
   </main>
 `;
