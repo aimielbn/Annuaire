@@ -3,7 +3,7 @@ import '../style.scss';
 import { data } from '../data';
 import { nav } from '../nav';
 
-const detailsPersonne = () => {
+const detailsArticle = () => {
   // récupération des paramètres GET de l'url
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
