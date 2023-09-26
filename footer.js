@@ -10,7 +10,7 @@ const footerData = {
 // Fonction pour afficher les données JSON dans le footer
 function afficherFooterData(data) {
   const footerContent = document.getElementById("footerContent");
-  footerContent.textContent = `&copy; ${data.annee} ${data.nomSite}. ${data.droits}`;
+  footerContent.textContent = ` © ${data.annee} ${data.nomSite}. ${data.droits}`;
 }
 
 // Appeler la fonction pour afficher les données dans le footer
