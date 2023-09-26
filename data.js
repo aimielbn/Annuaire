@@ -2,7 +2,7 @@ export const data = [
   {
     id: 6,
     titre: "Miraculous Ladybug : Une super-héroïne incroyable !",
-    image: "/img/6.png",
+    image: "/img/2.png",
     contenu: "Miraculous Ladybug est une série animée populaire qui suit les aventures de Marinette Dupain-Cheng, une adolescente parisienne ordinaire qui se transforme en la super-héroïne Miraculous Ladybug pour combattre les forces du mal. Avec l'aide de Chat Noir, son fidèle partenaire, elle protège Paris des méchants akumas créés par le mystérieux Papillon. La série est appréciée pour ses personnages charismatiques, ses scènes d'action captivantes et ses messages positifs sur l'amitié et le courage."
   },
   {
