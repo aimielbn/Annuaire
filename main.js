@@ -9,7 +9,7 @@ const listeArticles = (articles) => {
     const article = articles[i];
     let articleCard = `
       <a class="card col-5 col-md-3" href="/personne/?id=${article.id}">
-        <img src="${article.id}" class="card-img-top" alt="avatar de ${article.titre}">
+        <img src="${article.image}" class="card-img-top" alt="avatar de ${article.titre}">
         <div class="card-body">
           <h5 class="card-title">${article.titre}</h5>
         </div>
